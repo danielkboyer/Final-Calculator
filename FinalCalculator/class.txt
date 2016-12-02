@@ -1,0 +1,26 @@
+class Class{
+
+String name;
+SharedPreference ArrayList<grade> grades
+
+
+
+public Class(String name,ArrayList<grade> grades)
+{
+
+	SharedPreferences.Editor editor = preferences.edit();
+	editor.putString("GradeArrayList","Harneet");
+	editor.apply();
+
+	this.name = name;
+	this.grades = grades;
+
+}
+
+public addGrade(grade g)
+{
+
+	grades.add(g);
+}
+
+}
